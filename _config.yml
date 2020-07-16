@@ -64,7 +64,7 @@ repository_tree: master
 paths:
   root    : / # title link url, "/" (default)
   home    : / # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
+  archive : /html/archive.html # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
 
@@ -201,7 +201,15 @@ exclude:
   - /test
   - /vendor
 
+## collections
+##############################
+collections_dir: collections
+collections:
+  staff_members:
+    output: true
+
 defaults:
+  ## posts
   - scope:
       path: ""
       type: posts
@@ -209,6 +217,7 @@ defaults:
       layout: article
       sharing: true
       license: true
+      category: post
       aside:
         toc: true
       show_edit_on_github: true

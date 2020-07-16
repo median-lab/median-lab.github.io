@@ -68,19 +68,19 @@ layout: base
     <div class="{{ _page_main_class }} cell cell--auto">
 
       <div class="page__main-inner">
-      {%- if _header != false -%}
-        <div class="page__header d-print-none">
-        {%- assign _header_theme = page.header.theme | default: layout.header.theme -%}
-        {%- if _header_theme == 'dark'-%}
-          {%- include header.html theme='dark' background=page.header.background -%}
-        {%- elsif _header_theme == 'light' -%}
-          {%- include header.html theme='light' background=page.header.background -%}
-        {%- else -%}
-          {%- include header.html -%}
+          
+        {%- if _header != false -%}
+          <div class="page__header d-print-none">
+          {%- assign _header_theme = page.header.theme | default: layout.header.theme -%}
+          {%- if _header_theme == 'dark'-%}
+            {%- include header.html theme='dark' background=page.header.background -%}
+          {%- elsif _header_theme == 'light' -%}
+            {%- include header.html theme='light' background=page.header.background -%}
+          {%- else -%}
+            {%- include header.html -%}
+          {%- endif -%}
+          </div>
         {%- endif -%}
-        </div>
-      {%- endif -%}
-
 
         <div class="page__content">
         {%- if _article_header_type == 'overlay' or _article_header_type == 'cover' -%}
@@ -121,6 +121,8 @@ layout: base
               {%- assign _header_style = _header_style | append: 'min-height:' | append: _article_header_height | append: ';' -%}
             {%- endif -%}
 
+            
+
             <div class="article__header--overlay">
 
             {%- if _article_header_theme == 'light' -%}
@@ -142,10 +144,15 @@ layout: base
                 <div class="hero overlay" style="{{ _header_style }}">
               {%- endif -%}
             {%- endif -%}
+
+            
+
                 <div class="hero__content">
+
                   {%- if _full_width == false -%}
                     <div class ="main">
                   {%- endif -%}
+
                     {%- include article-info.html article=page semantic=false -%}
                     {%- include article-header.html article=page semantic=false -%}
                     {%- if page.excerpt -%}
@@ -176,10 +183,10 @@ layout: base
           {%- endif -%}
 
         {%- endif -%}
-
+       <!-- header can change to here -->
 
         {%- if _full_width == false -%}
-          <div class ="main">
+          <div class ="main" id="con_main">
         {%- endif -%}
             <div class="grid grid--reverse">
 
