@@ -1,6 +1,7 @@
 ---
 layout: article
 title: 黄晓男(Xiaonan Huang)
+categories: collections
 permalink: /people/xiaonanhuang.html
 key: articles-brief
 cover: /assets/images/people/HuangXiaonan.png

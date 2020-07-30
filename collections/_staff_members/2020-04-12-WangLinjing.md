@@ -1,7 +1,8 @@
 ---
 layout: article
-title: 郑涛(Tao Zheng)
-permalink: /people/taozheng.html
+title: 王琳婧(Linjing Wang)
+categories: collections
+permalink: /people/linjingw.html
 key: articles-brief
 cover: /assets/images/people/default.png
 show_date: false
@@ -18,24 +19,24 @@ article_header:
 
 ---
 
-## Research Assistant, SUSTech, 2019 - Now
+## Research Assistant, SUSTech, 2020 - Now
 
 <!--more-->
 
 `Current Research Interests`{:.info}
 
-- Multi-task Learning 
+- Medical Image Analysis 
 
 `E-mail address`{:.info}
 
-- zhengt[at]mail.sustech.edu.cn
+- wanglj7[at]mail.sustech.edu.cn
 
 `Homepage`{:.info}
 
 <div class="author-links">
   <ul class="menu menu--nowrap menu--inline">
 	  <li title="homepage">
-	  <a class="button button--circle mail-button" itemprop="sameAs" href="https://median-lab.github.io/" target="_blank">
+	  <a class="button button--circle mail-button" itemprop="sameAs" href="https://krabbejing.github.io/sleek/" target="_blank">
 	    <i class="fa fa-home"></i>
 	  </a>
   	  </li>

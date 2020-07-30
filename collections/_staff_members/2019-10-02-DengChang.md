@@ -1,33 +1,35 @@
 ---
 layout: article
-title: 郭鹏鑫(Pengxin Guo)
-permalink: /people/pengxinguo.html
+title: 邓昌(Chang Deng)
+categories: collections
+permalink: /people/changdeng.html
 key: articles-brief
-cover: /assets/images/people/GuoPengxin.png
+cover: /assets/images/people/DengChang.jpg
 show_date: false
 article_header:
   type: cover
   image:
-    src: /assets/images/cover/gradstd-cover.png
+    src: /assets/images/cover/ra-cover.png
 ---
 
-![Image](/assets/images/people/GuoPengxin.png){:.circle.border.shadow}{:height="350px" width="350px"}
+![Image](/assets/images/people/DengChang.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
+
 
 <div class="article__content" markdown="1">
 
 ---
 
-## Graduate Student, SUSTech, 2020 - Now
+## Research Assistant, SUSTech, 2019 - Now
 
 <!--more-->
 
 `Current Research Interests`{:.info}
 
-- Transfer Learning
+- Multi-task Learning 
 
 `E-mail address`{:.info}
 
-- 18945076250[at]sina.cn
+- dengc[at]mail.sustech.edu.cn
 
 `Homepage`{:.info}
 

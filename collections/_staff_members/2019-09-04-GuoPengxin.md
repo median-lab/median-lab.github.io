@@ -1,9 +1,10 @@
 ---
 layout: article
-title: 张毅(Yi Zhang)
-permalink: /people/yizhang.html
+title: 郭鹏鑫(Pengxin Guo)
+categories: collections
+permalink: /people/pengxinguo.html
 key: articles-brief
-cover: /assets/images/people/ZhangYi.jpg
+cover: /assets/images/people/GuoPengxin.png
 show_date: false
 article_header:
   type: cover
@@ -11,23 +12,23 @@ article_header:
     src: /assets/images/cover/gradstd-cover.png
 ---
 
-![Image](/assets/images/people/ZhangYi.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
+![Image](/assets/images/people/GuoPengxin.png){:.circle.border.shadow}{:height="350px" width="350px"}
 
 <div class="article__content" markdown="1">
 
 ---
 
-## Graduate Student, SUSTech, 2019 - Now
+## Graduate Student, SUSTech, 2020 - Now
 
 <!--more-->
 
 `Current Research Interests`{:.info}
 
-- Meta-Learning
+- Transfer Learning
 
 `E-mail address`{:.info}
 
-- 11930380[at]mail.sustech.edu.cn
+- 18945076250[at]sina.cn
 
 `Homepage`{:.info}
 

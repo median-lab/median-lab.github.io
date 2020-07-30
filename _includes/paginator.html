@@ -4,7 +4,7 @@
     {%- include snippets/get-locale-string.html key='STATISTICS' -%}
     {%- assign _locale_statistics = __return -%}
 
-    {%- assign _post_count = site.posts | size -%}
+    {%- assign _post_count = site.news | size -%}
     {%- assign _page_count = paginator.total_pages -%}
     <p>{{ _locale_statistics | replace: '[POST_COUNT]', _post_count | replace: '[PAGE_COUNT]', _page_count }}</p>
     <div class="pagination__menu">
@@ -44,7 +44,7 @@
           </div></li>
         {%- endif -%}
 
-        {%- for page in (1.._length) -%}
+        <!-- {%- for page in (1.._length) -%}
           {%- if page == _cur -%}
             <li>
               <div class="button button--primary button--circle focus"><span>{{ page }}</span></div>
@@ -79,7 +79,20 @@
               </li>
             {%- endif -%}
           {%- endif -%}
-        {%- endfor -%}
+        {%- endfor -%} -->
+      {% if paginator.page_trail %}
+        {% for trail in paginator.page_trail %}
+          {%- if trail.num == _cur -%}
+            <li>
+              <div class="button button--primary button--circle focus"><span>{{ trail.num }}</span></div>
+            </li>
+          {%- else -%}
+            <li {% if page.url == trail.path %}class="selected"{% endif %}>
+                <a class="button button--secondary button--circle" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}"><span>{{ trail.num }}</span></a>
+            </li>
+          {%- endif -%}
+        {% endfor %}
+      {% endif %}
 
         {%- if paginator.next_page -%}
           {%- include snippets/prepend-baseurl.html path=paginator.next_page_path -%}

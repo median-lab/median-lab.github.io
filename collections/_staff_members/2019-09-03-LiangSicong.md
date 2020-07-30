@@ -1,34 +1,34 @@
 ---
 layout: article
-title: 邓昌(Chang Deng)
-permalink: /people/changdeng.html
+title: 梁思聪(Sicong Liang)
+categories: collections
+permalink: /people/sicongliang.html
 key: articles-brief
-cover: /assets/images/people/DengChang.jpg
+cover: /assets/images/people/LiangSicong.jpg
 show_date: false
 article_header:
   type: cover
   image:
-    src: /assets/images/cover/ra-cover.png
+    src: /assets/images/cover/gradstd-cover.png
 ---
 
-![Image](/assets/images/people/DengChang.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
-
+![Image](/assets/images/people/LiangSicong.jpg){:.circle.border.shadow}{:height="350px" width="350px"}
 
 <div class="article__content" markdown="1">
 
 ---
 
-## Research Assistant, SUSTech, 2019 - Now
+## Graduate Student, SUSTech, 2019 - Now
 
 <!--more-->
 
 `Current Research Interests`{:.info}
 
-- Multi-task Learning 
+- Multi-task Learning
 
 `E-mail address`{:.info}
 
-- dengc[at]mail.sustech.edu.cn
+- 11930663[at]mail.sustech.cn
 
 `Homepage`{:.info}
 

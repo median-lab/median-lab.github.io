@@ -1,9 +1,9 @@
 ---
 layout: article
-title: 王琳婧(Linjing Wang)
-permalink: /people/linjingw.html
+title: 林百炅(Baijiong Lin)
+categories: collections
 key: articles-brief
-cover: /assets/images/people/default.png
+cover: /assets/images/people/LinBaijiong.jpg
 show_date: false
 article_header:
   type: cover
@@ -11,7 +11,7 @@ article_header:
     src: /assets/images/cover/ra-cover.png
 ---
 
-![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="350px" width="350px"}
+![Image](/assets/images/people/LinBaijiong.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
 
 
 <div class="article__content" markdown="1">
@@ -24,18 +24,18 @@ article_header:
 
 `Current Research Interests`{:.info}
 
-- Medical Image Analysis 
+- Multi-task Learning 
 
 `E-mail address`{:.info}
 
-- wanglj7[at]mail.sustech.edu.cn
+- linbj[at]mail.sustech.edu.cn
 
 `Homepage`{:.info}
 
 <div class="author-links">
   <ul class="menu menu--nowrap menu--inline">
 	  <li title="homepage">
-	  <a class="button button--circle mail-button" itemprop="sameAs" href="https://krabbejing.github.io/sleek/" target="_blank">
+	  <a class="button button--circle mail-button" itemprop="sameAs" href="https://baijiong-lin.github.io/" target="_blank">
 	    <i class="fa fa-home"></i>
 	  </a>
   	  </li>
