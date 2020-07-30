@@ -11,17 +11,14 @@ article_header:
     src: /assets/images/cover/ra-cover.png
 ---
 
-![Image](/assets/images/people/LinBaijiong.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
-
 
 <div class="article__content" markdown="1">
 
----
 
 ## Research Assistant, SUSTech, 2020 - Now
 
 <!--more-->
-
+![Image](/assets/images/people/LinBaijiong.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
 `Current Research Interests`{:.info}
 
 - Multi-task Learning 
@@ -41,4 +38,5 @@ article_header:
   	  </li>
   </ul>
 </div>
+---
 </div>

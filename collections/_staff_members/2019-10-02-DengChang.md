@@ -12,16 +12,13 @@ article_header:
     src: /assets/images/cover/ra-cover.png
 ---
 
-![Image](/assets/images/people/DengChang.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
-
 
 <div class="article__content" markdown="1">
-
----
 
 ## Research Assistant, SUSTech, 2019 - Now
 
 <!--more-->
+![Image](/assets/images/people/DengChang.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
 
 `Current Research Interests`{:.info}
 
@@ -42,4 +39,5 @@ article_header:
   	  </li>
   </ul>
 </div>
+---
 </div>

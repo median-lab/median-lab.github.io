@@ -12,17 +12,14 @@ article_header:
     src: /assets/images/cover/ra-cover.png
 ---
 
-![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="350px" width="350px"}
-
 
 <div class="article__content" markdown="1">
 
----
 
 ## Research Assistant, SUSTech, 2020 - Now
 
 <!--more-->
-
+![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="350px" width="350px"}
 `Current Research Interests`{:.info}
 
 - Medical Image Analysis 
@@ -42,4 +39,5 @@ article_header:
   	  </li>
   </ul>
 </div>
+---
 </div>

@@ -12,17 +12,14 @@ article_header:
     src: /assets/images/cover/ra-cover.png
 ---
 
-![Image](/assets/images/people/HuangXiaonan.png){:.circle.border.shadow}{:height="350px" width="350px"}
-
 
 <div class="article__content" markdown="1">
 
----
 
 ## Research Assistant, SUSTech, 2019 - Now
 
 <!--more-->
-
+![Image](/assets/images/people/HuangXiaonan.png){:.circle.border.shadow}{:height="350px" width="350px"}
 `Current Research Interests`{:.info}
 
 - Multi-task learning 

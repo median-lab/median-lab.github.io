@@ -6,7 +6,7 @@
 
     {%- assign _post_count = site.news | size -%}
     {%- assign _page_count = paginator.total_pages -%}
-    <p>{{ _locale_statistics | replace: '[POST_COUNT]', _post_count | replace: '[PAGE_COUNT]', _page_count }}</p>
+    <!-- <p>{{ _locale_statistics | replace: '[POST_COUNT]', _post_count | replace: '[PAGE_COUNT]', _page_count }}</p> -->
     <div class="pagination__menu">
       <ul class="menu menu--nowrap">
         {%- assign _max_show = 5 -%}
@@ -35,7 +35,7 @@
         {%- if paginator.previous_page -%}
           {%- include snippets/prepend-baseurl.html path=paginator.previous_page_path -%}
           {%- assign _href = __return -%}
-          <li><a class="button button--secondary button--circle" href="{{ _href }}">
+          <li><a class="button button--secondary button--circle" href="{{ paginator.previous_page_path }}">
             <i class="fas fa-angle-left"></i>
           </a></li>
         {%- else -%}
@@ -93,11 +93,11 @@
           {%- endif -%}
         {% endfor %}
       {% endif %}
-
+      <!-- arrow right -->
         {%- if paginator.next_page -%}
           {%- include snippets/prepend-baseurl.html path=paginator.next_page_path -%}
           {%- assign _href = __return -%}
-          <li><a class="button button--secondary button--circle" href="{{ _href }}">
+          <li><a class="button button--secondary button--circle" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
             <i class="fas fa-angle-right"></i>
           </a></li>
         {%- else -%}

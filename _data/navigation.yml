@@ -14,7 +14,7 @@ header:
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
       # @end locale config
-    url: /index.html
+    url: /
   - titles:
       # @start locale config
       en      : &EN       People
@@ -81,7 +81,7 @@ header:
     url: /html/seminar.html
   - titles:
       # @start locale config
-      en      : &EN       Link
+      en      : &EN       Links
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN

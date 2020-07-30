@@ -57,5 +57,8 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0"
   }
 }

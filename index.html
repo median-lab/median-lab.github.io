@@ -1,14 +1,28 @@
 ---
-layout: home
-title: MEDIAN Group
+layout: articles
+title: What's new from MEDIAN Group
 mode: immersive
 header:
   theme: dark
+pagination:
+  enabled: true
+  collection: news
+articles:
+  data_source: paginator.posts
+  article_type: BlogPosting
+  show_cover: false
+  show_excerpt: true
+  show_readmore: true
+  show_info: true
 article_header:
   type: cover
   image:
     src: /html/assets/images/Median.png
 ---
+
+<div class="layout--home">
+  {%- include paginator.html -%}
+</div>
 <div class="layout--articles">
   <section class="my-5">
     <header><h2 id="page-layout">About Us</h2></header>
@@ -32,32 +46,6 @@ article_header:
   <section class="my-5">
     <header><h2 id="articles-layout">The Department</h2></header>
     <p>The Department of Computer Science and Engineering (CSE, http://cse.sustc.edu.cn/en/) at the Southern University of Science and Technology (SUSTech) was founded in 2016. As a young and ambitious CSE department in the heart of China's silicon valley --- Shenzhen, it has grown to 42 full-time professors in 2020, including tenured, tenure-track, research-only and teaching-only professors. Among them are three IEEE fellows and two (former) editors-in-chief of IEEE Transactions/journals and winners of prestigious international awards. Over 90% professors were recruited directly from outside mainland China. In the last four years, the Department has secured ~200 millions RMB (~28 millions USD) external grants. The Department plans to double its size in the next five years. The language of teaching at SUSTech is English.</p>
-  </section>
-
-</div>
-<div class="layout--articles">
-  <section class="my-5">
-    <header><h2 id="page-layout">About Us</h2></header>
-    <p>The huMan-inspirEd Data-drIven Artificial iNtelligence (MEDIAN) Group was established in 2019 at Southern University of Science and Technology.
-      It consists of a dynamic team of members.</p>
-  </section>
-
-  <section class="my-5">
-    <header><h2 id="articles-layout">Address</h2></header>
-    <p>Building 10, Innovation Park, No. 1088 Xueyuan Avenue, Nanshan District, Shenzhen, Guangdong, China (518055)</p>
-  </section>
-
-</div>
-<div class="layout--articles">
-  <section class="my-5">
-    <header><h2 id="page-layout">About Us</h2></header>
-    <p>The huMan-inspirEd Data-drIven Artificial iNtelligence (MEDIAN) Group was established in 2019 at Southern University of Science and Technology.
-      It consists of a dynamic team of members.</p>
-  </section>
-
-  <section class="my-5">
-    <header><h2 id="articles-layout">Address</h2></header>
-    <p>Building 10, Innovation Park, No. 1088 Xueyuan Avenue, Nanshan District, Shenzhen, Guangdong, China (518055)</p>
   </section>
 
 </div>
