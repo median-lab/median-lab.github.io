@@ -40,5 +40,4 @@ article_header:
   	  </li>
   </ul>
 </div>
----
 </div>

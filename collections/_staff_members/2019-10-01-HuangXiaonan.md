@@ -20,6 +20,7 @@ article_header:
 
 <!--more-->
 ![Image](/assets/images/people/HuangXiaonan.png){:.circle.border.shadow}{:height="350px" width="350px"}
+
 `Current Research Interests`{:.info}
 
 - Multi-task learning 

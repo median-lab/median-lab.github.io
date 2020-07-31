@@ -20,6 +20,7 @@ article_header:
 
 <!--more-->
 ![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="350px" width="350px"}
+
 `Current Research Interests`{:.info}
 
 - Medical Image Analysis 
@@ -39,5 +40,4 @@ article_header:
   	  </li>
   </ul>
 </div>
----
 </div>
