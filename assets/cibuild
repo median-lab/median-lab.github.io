@@ -14,17 +14,15 @@ rm -rf _site
 mkdir _site
 
 # clone remote repo to "_site"
-# git clone https://${github_token}@github.com/median-lab/median-lab.github.io.git --branch gh-pages _site
+git clone https://$github_token@github.com/median-lab/median-lab.github.io.git --branch gh-pages _site
 # git remote set-url gh-pages git@github.com:median-lab/median-lab.github.io.git
-git clone ${github_token}@github.com:median-lab/median-lab.github.io.git --branch gh-pages _site
+# git clone $github_token@github.com:median-lab/median-lab.github.io.git --branch gh-pages _site
 
 # build with Jekyll into "_site"
 bundle exec jekyll build
 
 # push
 cd _site
-git config user.email "wanglj7@mail.sustech.edu.cn"
-git config user.name "median-lab"
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
 git push --force origin gh-pages
