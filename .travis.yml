@@ -5,20 +5,17 @@ branches:
   only:
   - master
 before_script:
- - chmod +x ./assets/cibuild
+ - chmod u+x /assets/cibuild
  # path to our build script.
  # Set up git user name and tag this commit
- - git config --local user.name "median-lab"
- - git config --local user.email "wanglj7@mail.sustech.edu.cn"
+ - git config user.name "median-lab"
+ - git config user.email "wanglj7@mail.sustech.edu.cn"
  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
  - git tag $TRAVIS_TAG
-env:
-  - github_token=c8e722059de230a2809afbec3d68fde90749c1c2
 script: ./assets/cibuild
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: c8e722059de230a2809afbec3d68fde90749c1c2
   local_dir: _site
   keep-history: true
   on:
