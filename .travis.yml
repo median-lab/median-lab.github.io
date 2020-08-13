@@ -9,7 +9,7 @@ before_script:
   - git config --local user.email "wanglj7@mail.sustech.edu.cn"
   - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
   - git tag $TRAVIS_TAG
-script: JEKYLL_ENV=production bundle exec jekyll build --config ._config.yml
+script: JEKYLL_ENV=production bundle exec jekyll build --config _config.yml
 deploy:
   provider: pages
   skip_cleanup: true

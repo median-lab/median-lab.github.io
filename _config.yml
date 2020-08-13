@@ -266,13 +266,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
-  datacode:
-    output: true
-    permalink: /:collection/:name
-  link:
-    output: true
-    permalink: /:collection/:name
-  album:
+  posts:
     output: true
     permalink: /:collection/:name
 

@@ -18,7 +18,7 @@ article_header:
 ## Research Assistant, SUSTech, 2020 - Now
 
 <!--more-->
-![Image](/assets/images/people/LinBaijiong.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
+![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="380px" width="350px"}
 
 `Current Research Interests`{:.info}
 
