@@ -7,17 +7,16 @@ branches:
 before_script:
  - chmod u+x ./assets/cibuild
  # path to our build script.
-before_deploy:
-  # Set up git user name and tag this commit
-  - git config --local user.name "median-lab"
-  - git config --local user.email "wanglj7@mail.sustech.edu.cn"
-  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
-  - git tag $TRAVIS_TAG
+ # Set up git user name and tag this commit
+ - git remote set-url origin git@github.com:median-lab/median-lab.github.io.git
+ - git config --local user.name "median-lab"
+ - git config --local user.email "wanglj7@mail.sustech.edu.cn"
+ - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+ - git tag $TRAVIS_TAG
 script: ./assets/cibuild
 deploy:
   provider: pages
-  user: "median-lab"
-  password: "Medianlab@601"
+  repo: git@github.com:median-lab/median-lab.github.io.git
   skip_cleanup: true
   local_dir: _site
   github_token: $github_token

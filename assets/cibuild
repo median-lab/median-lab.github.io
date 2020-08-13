@@ -25,5 +25,5 @@ bundle exec jekyll build
 cd _site
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-# git push --force origin gh-pages
-git push --force https://${github_token}@github.com/median-lab/median-lab.github.io.git origin:gh-pages
+git push --force origin gh-pages
+# git push --force https://${github_token}@github.com/median-lab/median-lab.github.io.git origin:gh-pages
