@@ -1,0 +1,35 @@
+I"I<div class="article__content">
+
+  <h2 id="associate-professor--sustech">Associate Professor @ SUSTech</h2>
+
+  <!--more-->
+  <p><img src="/assets/images/people/zhangyu.jpeg" alt="Image" class="circle border shadow" height="350px" width="350px" /></p>
+
+  <p><code class="language-plaintext info highlighter-rouge">Current Research Interests</code></p>
+
+  <ul>
+    <li>Multi-task Learning</li>
+    <li>Transfer Learning</li>
+    <li>Deep Learning</li>
+    <li>Semi-supervised Learning</li>
+    <li>Dimensionality Reduction</li>
+    <li>Metric Learning</li>
+  </ul>
+
+  <p><code class="language-plaintext info highlighter-rouge">E-mail address</code></p>
+
+  <p><img src="/assets/images/people/zy_emails.jpg" alt="Image" /></p>
+
+  <p><code class="language-plaintext info highlighter-rouge">Homepage</code></p>
+
+  <div class="author-links">
+  <ul class="menu menu--nowrap menu--inline">
+	  <li title="homepage">
+	  <a class="button button--circle mail-button" itemprop="sameAs" href="https://yuzhanghk.github.io/" target="_blank">
+	    <i class="fa fa-home"></i>
+	  </a>
+  	  </li>
+  </ul>
+</div>
+</div>
+:ET

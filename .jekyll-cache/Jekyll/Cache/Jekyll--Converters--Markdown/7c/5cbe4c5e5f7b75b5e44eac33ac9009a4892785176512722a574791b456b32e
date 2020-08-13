@@ -1,0 +1,33 @@
+I"X<p class="success">Success!</p>
+
+<p><code class="language-plaintext success highlighter-rouge">success</code> <code class="language-plaintext info highlighter-rouge">info</code> <code class="language-plaintext warning highlighter-rouge">warning</code> <code class="language-plaintext error highlighter-rouge">error</code></p>
+
+<div class="grid-container">
+<div class="grid grid--p-3">
+<div class="cell cell--12 cell--md-5 cell--lg-4">
+      <p><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg" alt="Image" title="Image_rounded" class="rounded" /></p>
+    </div>
+<div class="cell cell--12 cell--md-5 cell--lg-4">
+      <p><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg" alt="Image" title="Image_circle+shadow" class="circle shadow" /></p>
+    </div>
+</div>
+</div>
+
+<div class="grid-container">
+<div class="grid grid--p-1">
+<div class="cell cell--6 cell--md-4 cell--lg-2">
+<div class="button button--success button--pill my-2"><i class="fas fa-space-shuttle"></i> CLICK ME</div>
+</div>
+<div class="cell cell--6 cell--md-4 cell--lg-2">
+<div class="button button--outline-info button--pill my-2"><i class="fas fa-space-shuttle"></i> CLICK ME</div>
+</div>
+<div class="cell cell--6 cell--md-4 cell--lg-2">
+<div class="button button--warning button--rounded my-2"><i class="fas fa-user-astronaut"></i> CLICK ME</div>
+</div>
+<div class="cell cell--6 cell--md-4 cell--lg-2">
+<div class="button button--outline-error button--rounded my-2"><i class="fas fa-user-astronaut"></i> CLICK ME</div>
+</div>
+</div>
+</div>
+
+:ET
