@@ -3,6 +3,7 @@ layout: article
 title: 徐源诚(Yuancheng Xu)
 categories: collections
 key: articles-brief
+permalink: /people/yuanchengxu.html
 cover: /assets/images/people/default.png
 show_date: false
 article_header:

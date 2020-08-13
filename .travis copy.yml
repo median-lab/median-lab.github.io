@@ -15,3 +15,32 @@ deploy:
   on:
     branch: master
     target_branch: gh-pages
+
+language: ruby
+rvm:
+  - 2.7.1
+branches:
+  only:
+  - master
+before_script:
+ - chmod u+x ./assets/cibuild
+ # path to our build script.
+ # Set up git user name and tag this commit
+ - git remote set-url origin git@github.com:median-lab/median-lab.github.io.git
+ - git config --local user.name "median-lab"
+ - git config --local user.email "wanglj7@mail.sustech.edu.cn"
+ - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+ - git tag $TRAVIS_TAG
+script: ./assets/cibuild
+deploy:
+  provider: pages
+  repo: git@github.com:median-lab/median-lab.github.io.git
+  skip_cleanup: true
+  local_dir: _site
+  github_token: $github_token
+  keep-history: true
+  on:
+    branch: master
+    target_branch: gh-pages
+exclude: [vendor]
+sudo: false

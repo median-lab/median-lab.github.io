@@ -3,6 +3,7 @@ layout: article
 title: 林百炅(Baijiong Lin)
 categories: collections
 key: articles-brief
+permalink: /people/baijionglin.html
 cover: /assets/images/people/LinBaijiong.jpg
 show_date: false
 article_header:
