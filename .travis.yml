@@ -5,7 +5,7 @@ branches:
   only:
   - master
 before_script:
- - chmod u+x /assets/cibuild
+ - chmod u+x ./assets/cibuild
  # path to our build script.
  # Set up git user name and tag this commit
  - git config user.name "median-lab"
