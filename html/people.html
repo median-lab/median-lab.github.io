@@ -379,7 +379,7 @@ fill="#000000" stroke="none">
           <header><a href="/people/changdeng.html"><h2 itemprop="headline" class="item__header">邓昌(Chang Deng)</h2></a></header>
           <div class="item__description"><div class="article__content" itemprop="description articleBody"><div class="article__content">
 
-  <h2 id="research-assistant-sustech-2019---now">Research Assistant, SUSTech, 2019 - Now</h2>
+  <h2 id="research-assistant-sustech-2019---202008">Research Assistant, SUSTech, 2019 - 2020.08</h2>
 
 </div>
 </div><p><a href="/people/changdeng.html">Read more</a></p></div></div>
@@ -520,6 +520,7 @@ fill="#000000" stroke="none">
           activeCount++;
           scrollTop = $(window).scrollTop() || $pageMain.scrollTop();
           $root.addClass('modal--show');
+          $(".modal--show").show()
           $pageMain.scrollTop(scrollTop);
           activeCount === 1 && ($pageRoot.addClass('show-modal'), $body.addClass('of-hidden'));
           hideWhenWindowScroll && window.hasEvent('touchstart') && $window.on('scroll', hide);
@@ -598,7 +599,7 @@ fill="#000000" stroke="none">
     }
 
     $searchToggle.on('click', function() {
-      modalVisible ? searchModal.hide() : searchModal.show();
+      modalVisible ? searchModal.hide() : searchModal.show();      
     });
     // Char Code: 83  S, 191 /
     $(window).on('keyup', function(e) {
