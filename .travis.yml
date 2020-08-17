@@ -1,21 +1,31 @@
 language: ruby
 rvm:
-  - 2.7.1
+- 2.7.1
 branches:
   only:
   - master
-before_script: 
-  - git config --local user.name "median-lab"
-  - git config --local user.email "wanglj7@mail.sustech.edu.cn"
-  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
-  - git tag $TRAVIS_TAG
-script: JEKYLL_ENV=production bundle exec jekyll build --config _config.yml
+env:
+  global:
+    secure: "OfQqNBORVrr3nyLeuRK7wHLYn+2RxPI/eRRwIbED9TUZkZ/JipSFyoAShhQKe44pwCVCYBmxclKewW6F4qi6LK2eas/kpUZm1jWRZoIoPJEiNW0zH5G9PtMu96PpRH3ulooKJ4nkLgRTeILqZS3yzv7SJQKD4PGz9G4yIexDojAZ4xKx0hfVhtjrMjf0ikzq1Mi2EoB2vtRtIN64HnCLzdbFc36ouLSYQbEIrGjB1OqGu7ADVJTzhnLmMY8YzWhHOGhdj3WkMdTHVQQMb4SjAqFz4Exjf7wNpk10UceBTxyjXtfk5p1STMCEaunAaK1m9Id/7+Ed/ygRH6BM4yw5FdXz5FviGM87EQAJVroQeOKOQ6MX1//lxy6fznpTSnTkSLW99nExpqKlfkarVPql4ohrlnIctbxThZ+/KVgJlPy9vP6j1x9By5ZHz7kx69ggza+E5B84HxvJdX5wh01gFBOiNqpP8+BaUmdx23vV2JE+puun1AK5BPBsEgJOzAIi+Q35KeAMkEYR6RXj61Fd0ojeGzbxyu4XZMj9IpyYCU/TPd8iXe3k7/nYptbP2Xt8GmKXHV0RmK/qHfaZxzleQHzOmYK6nDcT6GcdRd3A9OHCwEsFcwaYHBsgaYF0f9mQ8dDkifS2wDm/hJYtnsk4X0lxqOKjCUeKiAEFJKRIoO8="
+before_install:
+- openssl aes-256-cbc -K $encrypted_f217180e22ee_key -iv $encrypted_f217180e22ee_iv
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+- cp ssh_config ~/.ssh/config
+- git config user.email "wanglj7@mail.sustech.edu.cn"
+- git config user.name "median-lab"
+before_script:
+  - chmod +x ./_includes/scripts/cibuild
+script: "./_includes/scripts/cibuild"
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github_token
+  github_token: "$GITHUB_TOKEN"
   local_dir: _site
   keep-history: true
   on:
     branch: master
     target_branch: gh-pages
+
