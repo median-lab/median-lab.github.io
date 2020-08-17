@@ -39,7 +39,7 @@
     }
 
     $searchToggle.on('click', function() {
-      modalVisible ? searchModal.hide() : searchModal.show();
+      modalVisible ? searchModal.hide() : searchModal.show();      
     });
     // Char Code: 83  S, 191 /
     $(window).on('keyup', function(e) {

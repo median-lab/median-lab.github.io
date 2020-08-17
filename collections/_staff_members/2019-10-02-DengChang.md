@@ -15,7 +15,7 @@ article_header:
 
 <div class="article__content" markdown="1">
 
-## Research Assistant, SUSTech, 2019 - Now
+## Research Assistant, SUSTech, 2019 - 2020.08
 
 <!--more-->
 ![Image](/assets/images/people/DengChang.jpg){:.circle.border.shadow}{:height="380px" width="350px"}

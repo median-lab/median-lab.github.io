@@ -12,4 +12,3 @@ window.TEXT_SEARCH_DATA={
     ]
   {%- endfor -%}
 };
-console.log(TEXT_SEARCH_DATA)

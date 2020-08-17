@@ -25,6 +25,7 @@
           activeCount++;
           scrollTop = $(window).scrollTop() || $pageMain.scrollTop();
           $root.addClass('modal--show');
+          $(".modal--show").show()
           $pageMain.scrollTop(scrollTop);
           activeCount === 1 && ($pageRoot.addClass('show-modal'), $body.addClass('of-hidden'));
           hideWhenWindowScroll && window.hasEvent('touchstart') && $window.on('scroll', hide);
