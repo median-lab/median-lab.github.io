@@ -23,7 +23,6 @@ article_header:
 `Current Research Interests`{:.info}
 
 - Multi-task Learning 
-- Meta learning
 
 `E-mail address`{:.info}
 

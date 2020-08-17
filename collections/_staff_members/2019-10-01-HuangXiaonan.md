@@ -12,9 +12,7 @@ article_header:
     src: /assets/images/cover/ra-cover.png
 ---
 
-
 <div class="article__content" markdown="1">
-
 
 ## Research Assistant, SUSTech, 2019 - Now
 

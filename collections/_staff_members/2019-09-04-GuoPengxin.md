@@ -12,8 +12,6 @@ article_header:
     src: /assets/images/cover/gradstd-cover.png
 ---
 
-
-
 <div class="article__content" markdown="1">
 
 ## Graduate Student, SUSTech, 2020 - Now
