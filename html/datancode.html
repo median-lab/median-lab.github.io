@@ -335,30 +335,35 @@ fill="#000000" stroke="none">
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/WebPage"><div class="article__header"><header><h1>Data & Code</h1></header></div><meta itemprop="headline" content="Data & Code"><meta itemprop="author" content="Median Lab"/><div class="js-article-content"><div class="layout--archive js-all"><div class="site-tags js-tags">
+<article itemscope itemtype="http://schema.org/WebPage"><div class="article__header"><header><h1>Data & Code</h1></header></div><meta itemprop="headline" content="Data & Code"><meta itemprop="author" content="Median Lab"/><div class="js-article-content"><div class="layout--archive js-all">
+
+<div class="site-tags js-tags">
   <ul class="menu">
     <li>
       <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
-        Show All<div class="tag-button__count">6</div>
+        Show All<div class="tag-button__count">4</div>
       </button>
-    </li><li><button type="button" class="button button--pill tag-button tag-button-1" data-encode="Blog">
-          <span>Blog</span><div class="tag-button__count">1</div>
+    </li><li><button type="button" class="button button--pill tag-button tag-button-4" data-encode="Multi-Task+Learning">
+          <span>Multi-Task Learning</span><div class="tag-button__count"></div>
         </button>
-      </li><li><button type="button" class="button button--pill tag-button tag-button-4" data-encode="TeXt">
-          <span>TeXt</span><div class="tag-button__count">4</div>
+      </li><li><button type="button" class="button button--pill tag-button tag-button-4" data-encode="Technical+Reports">
+          <span>Technical Reports</span><div class="tag-button__count"></div>
         </button>
-      </li><li><button type="button" class="button button--pill tag-button tag-button-1" data-encode="Test">
-          <span>Test</span><div class="tag-button__count">1</div>
+      </li><li><button type="button" class="button button--pill tag-button tag-button-4" data-encode="Transfer+Learning">
+          <span>Transfer Learning</span><div class="tag-button__count"></div>
+        </button>
+      </li><li><button type="button" class="button button--pill tag-button tag-button-4" data-encode="year-2020">
+          <span>year-2020</span><div class="tag-button__count"></div>
         </button>
       </li></ul>
 </div>
-<div class="js-result layout--archive__result d-none"><div class="article-list items"><section><h2 class="article-list__group-header">2020</h2><ul class="items"><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Transfer+Learning,2020,Technical+Reports">
+<div class="js-result layout--archive__result d-none"><div class="article-list items"><section><h2 class="article-list__group-header">2020</h2><ul class="items"><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Transfer+Learning,year-2020,Technical+Reports">
         <div class="item__content"><span class="item__meta">Jun 13</span><a itemprop="headline" class="item__header" href="/publications/2020-06-13-arxive-qiaoxiao">Qiao Xiao and Yu Zhang. Distant Transfer Learning via Deep Random Walk. arXiv:2006.07622, 2020.</a></div>
-      </li><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Multi-Task+Learning,2020,Technical+Reports">
+      </li><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Multi-Task+Learning,year-2020,Technical+Reports">
         <div class="item__content"><span class="item__meta">Feb 12</span><a itemprop="headline" class="item__header" href="/publications/2020-02-12-arxive-pengxinguo">Pengxin Guo, Chang Deng, Linjie Xu, Xiaonan Huang, and Yu Zhang. Deep Multi-Task Augmented Feature Learning via Hierarchical Graph Neural Network. arXiv:2002.04813, 2020.</a></div>
-      </li><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Multi-Task+Learning,2020,ArXiv">
+      </li><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Multi-Task+Learning,year-2020,Technical+Reports">
         <div class="item__content"><span class="item__meta">Feb 12</span><a itemprop="headline" class="item__header" href="/publications/2020-02-12-arxive-yizhang">Yi Zhang, Yu Zhang, and Wei Wang. Deep Multi-Task Learning via Generalized Tensor Trace Norm. arXiv:2002.04799, 2020.</a></div>
-      </li><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Multi-Task+Learning,2020,Technical+Reports">
+      </li><li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="Multi-Task+Learning,year-2020,Technical+Reports">
         <div class="item__content"><span class="item__meta">Feb 12</span><a itemprop="headline" class="item__header" href="/publications/2020-02-12-arxive-sicongliang">Sicong Liang and Yu Zhang. A Simple General Approach to Balance Task Difficulty in Multi-Task Learning. arXiv:2002.04792, 2020.</a></div>
       </li></div>
 </div>
@@ -504,6 +509,7 @@ fill="#000000" stroke="none">
   var page__header = document.getElementsByClassName('page__header')[0];
   var header = document.getElementById('hd');
   var content = document.getElementById('con_main');
+  var articleCover = document.getElementsByClassName('article__header--cover')[0];
   var oTop = content.offsetTop;
   var martop = page__header.outerHeight;
   var sTop = 0;
@@ -512,14 +518,15 @@ fill="#000000" stroke="none">
       // 获取页面向上滚动的距离
       sTop = document.documentElement.scrollTop || document.body.scrollTop;
       page__header.style.position = 'fixed';
-        page__header.style.top = '0';
-        page__header.style.right = '0';
-        page__header.style.left = '0';
-      if (oTop>sTop>0) {
-          header.style.background = 'rgba(0,0,0, .15)';
-      } else if (sTop>oTop) {
-          header.style.background = 'rgba(0,0,0, .8)';
-      }
+      page__header.style.top = '0';
+      page__header.style.right = '0';
+      page__header.style.left = '0';
+      articleCover.style.marginTop = '80px';
+      // if (oTop>sTop>0) {
+      //     header.style.background = 'rgba(0,0,0, .15)';
+      // } else if (sTop>oTop) {
+      //     header.style.background = 'rgba(0,0,0, .8)';
+      // }
   };
 })();
 </script>
