@@ -1,32 +1,31 @@
 ---
 layout: article
-title: 郑涛(Tao Zheng)
+title: 田俊超(Junchao Tian)
 categories: collections
-permalink: /people/taozheng.html
+permalink: /people/junchaotian.html
 key: articles-brief
-cover: /assets/images/people/ZhengTao.jpeg
+cover: /assets/images/people/TianJunchao.jpg
 show_date: false
 article_header:
   type: cover
   image:
-    src: /assets/images/cover/ra-cover.png
+    src: /assets/images/cover/gradstd-cover.png
 ---
-
 
 <div class="article__content" markdown="1">
 
-## Research Assistant, SUSTech, 2019 - Now
+## Graduate Student, SUSTech, 2019 - Now
 
 <!--more-->
-![Image](/assets/images/people/ZhengTao.jpeg){:.circle.border.shadow}{:height="350px" width="350px"}
+![Image](/assets/images/people/TianJunchao.jpg){:.circle.border.shadow}{:height="350px" width="350px"}
 
 `Current Research Interests`{:.info}
 
-- Multi-modal Learning 
+- Federated Learning
 
 `E-mail address`{:.info}
 
-- zhengt[at]mail.sustech.edu.cn
+- 11930385[at]mail[dot]sustech[dot]edu[dot]cn
 
 `Homepage`{:.info}
 

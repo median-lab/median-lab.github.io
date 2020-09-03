@@ -25,7 +25,7 @@ article_header:
 
 `E-mail address`{:.info}
 
-- 11930663[at]mail.sustech.cn
+- 11930663[at]mail[dot]sustech[dot]edu[dot]cn
 
 `Homepage`{:.info}
 

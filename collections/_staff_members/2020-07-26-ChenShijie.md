@@ -1,31 +1,32 @@
 ---
 layout: article
-title: 郭鹏鑫(Pengxin Guo)
+title: 陈士杰(Shijie Chen)
 categories: collections
-permalink: /people/pengxinguo.html
 key: articles-brief
-cover: /assets/images/people/GuoPengxin.png
+permalink: /people/shijiechen.html
+cover: /assets/images/people/default.png
 show_date: false
 article_header:
   type: cover
   image:
-    src: /assets/images/cover/gradstd-cover.png
+    src: /assets/images/cover/visitingstu-cover.png
 ---
+
 
 <div class="article__content" markdown="1">
 
-## Graduate Student, SUSTech, 2020 - Now
+## Visiting Student, SUSTech, 2020 - Now
 
 <!--more-->
-![Image](/assets/images/people/GuoPengxin.png){:.circle.border.shadow}{:height="350px" width="350px"}
+![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="380px" width="350px"}
 
 `Current Research Interests`{:.info}
 
-- Transfer Learning
+- Multi-task Learning
 
 `E-mail address`{:.info}
 
-- 18945076250[at]sina.cn
+- XXXXX
 
 `Homepage`{:.info}
 

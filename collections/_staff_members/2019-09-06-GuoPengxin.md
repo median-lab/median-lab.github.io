@@ -1,24 +1,23 @@
 ---
 layout: article
-title: 陈喆(Zhe Chen)
+title: 郭鹏鑫(Pengxin Guo)
 categories: collections
+permalink: /people/pengxinguo.html
 key: articles-brief
-permalink: /people/zhechen.html
-cover: /assets/images/people/default.png
+cover: /assets/images/people/GuoPengxin.png
 show_date: false
 article_header:
   type: cover
   image:
-    src: /assets/images/cover/ra-cover.png
+    src: /assets/images/cover/gradstd-cover.png
 ---
-
 
 <div class="article__content" markdown="1">
 
-## Research Assistant, SUSTech, 2020 - Now
+## Graduate Student, SUSTech, 2020 - Now
 
 <!--more-->
-![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="380px" width="350px"}
+![Image](/assets/images/people/GuoPengxin.png){:.circle.border.shadow}{:height="350px" width="350px"}
 
 `Current Research Interests`{:.info}
 
@@ -26,7 +25,7 @@ article_header:
 
 `E-mail address`{:.info}
 
-- 11610609 [at] mail [dot] sustech [dot] edu [dot] cn
+- 18945076250[at]sina[dot]cn
 
 `Homepage`{:.info}
 

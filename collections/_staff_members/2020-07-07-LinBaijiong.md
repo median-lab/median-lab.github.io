@@ -23,11 +23,14 @@ article_header:
 
 `Current Research Interests`{:.info}
 
-- Multi-task Learning 
+- Few-Shot Learning
+- Meta Learning
+- Transfer Learning
+- Computer Vision
 
 `E-mail address`{:.info}
 
-- linbj[at]mail.sustech.edu.cn
+- linbj [at] mail [dot] sustech [dot] edu [dot] cn
 
 `Homepage`{:.info}
 

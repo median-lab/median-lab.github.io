@@ -1,31 +1,31 @@
 ---
 layout: article
-title: 黄晓男(Xiaonan Huang)
+title: 杨锐鸿(Ruihong Yang)
 categories: collections
-permalink: /people/xiaonanhuang.html
+permalink: /people/ruihongyang.html
 key: articles-brief
-cover: /assets/images/people/HuangXiaonan.png
+cover: /assets/images/people/YangRuihong.jpg
 show_date: false
 article_header:
   type: cover
   image:
-    src: /assets/images/cover/ra-cover.png
+    src: /assets/images/cover/gradstd-cover.png
 ---
 
 <div class="article__content" markdown="1">
 
-## Research Assistant, SUSTech, 2019 - Now
+## Graduate Student, SUSTech, 2019 - Now
 
 <!--more-->
-![Image](/assets/images/people/HuangXiaonan.png){:.circle.border.shadow}{:height="350px" width="350px"}
+![Image](/assets/images/people/YangRuihong.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
 
 `Current Research Interests`{:.info}
 
-- Multi-task learning 
+- Federated Learning
 
 `E-mail address`{:.info}
 
-- huangxn3[at]mail.sustech.edu.cn
+- 11930391[at]mail[dot]sustech[dot]edu[dot]cn
 
 `Homepage`{:.info}
 

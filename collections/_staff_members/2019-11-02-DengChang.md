@@ -9,7 +9,7 @@ show_date: false
 article_header:
   type: cover
   image:
-    src: /assets/images/cover/ra-cover.png
+    src: /assets/images/cover/alumni-cover.png
 ---
 
 
@@ -20,13 +20,17 @@ article_header:
 <!--more-->
 ![Image](/assets/images/people/DengChang.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
 
-`Current Research Interests`{:.info}
+`Currently`{:.info}
+- The University of Chicago, USA
 
-- Multi-task Learning 
+`Research Interests`{:.info}
+
+- Optimization
+- Multi-task Learning
 
 `E-mail address`{:.info}
 
-- dengc[at]mail.sustech.edu.cn
+- dengc[at]mail[dot]sustech[dot]edu[dot]cn
 
 `Homepage`{:.info}
 

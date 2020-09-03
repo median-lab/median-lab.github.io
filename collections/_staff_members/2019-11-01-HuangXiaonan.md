@@ -1,10 +1,10 @@
 ---
 layout: article
-title: 徐林杰(Linjie Xu)
+title: 黄晓男(Xiaonan Huang)
 categories: collections
-permalink: /people/linjiexu.html
+permalink: /people/xiaonanhuang.html
 key: articles-brief
-cover: /assets/images/people/XuLinjie.jpg
+cover: /assets/images/people/HuangXiaonan.png
 show_date: false
 article_header:
   type: cover
@@ -12,21 +12,20 @@ article_header:
     src: /assets/images/cover/ra-cover.png
 ---
 
-
 <div class="article__content" markdown="1">
 
-## Visiting Student, SUSTech, 2019 - Now
+## Research Assistant, SUSTech, 2019 - Now
 
 <!--more-->
-![Image](/assets/images/people/XuLinjie.jpg){:.circle.border.shadow}{:height="380px" width="350px"}
+![Image](/assets/images/people/HuangXiaonan.png){:.circle.border.shadow}{:height="350px" width="350px"}
 
 `Current Research Interests`{:.info}
 
-- Multi-task learning 
+- Multi-task learning
 
 `E-mail address`{:.info}
 
-- linjiexuncu[at]outlook.com
+- huangxn3[at]mail[dot]sustech[dot]edu[dot]cn
 
 `Homepage`{:.info}
 
