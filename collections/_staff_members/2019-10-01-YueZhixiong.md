@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 乐智熊(Zhixiong Yue)
+title: 乐智雄(Zhixiong Yue)
 categories: collections
 permalink: /people/zhixiongyue.html
 key: articles-brief
