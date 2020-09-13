@@ -1,13 +1,42 @@
 ---
-layout: articles
+layout: page
 title: Team Members
 article_header:
   type: cover
   image:
     src: /assets/images/cover/people-cover.png
 articles:
-  data_source: site.staff_members
   show_excerpt: true
   show_readmore: true
 ---
+<div class="layout--articles">
+  <section class="my-5">
+    <header><h2 id="faculty">Faculty</h2></header>
+    {%- include article-list.html articles=site.staff_members type='grid' -%}
+  </section>
 
+  <section class="my-5">
+    <header><h2 id="gradstd">Graduate Students</h2></header>
+    {%- include article-list.html articles=site.gradstd type='grid' -%}
+  </section>
+
+  <section class="my-5">
+    <header><h2 id="phdstd">Ph.D. Students</h2></header>
+    {%- include article-list.html articles=site.phdstd type='grid' -%}
+  </section>
+
+  <section class="my-5">
+    <header><h2 id="ra">Research Assistants</h2></header>
+    {%- include article-list.html articles=site.ra type='grid' -%}
+  </section>
+
+  <section class="my-5">
+  <header><h2 id="visitingstd">Visiting Students</h2></header>
+  {%- include article-list.html articles=site.visitingstd type='grid'-%}
+  </section>
+
+  <section class="my-5">
+    <header><h2 id="alumni">Alumni</h2></header>
+    {%- include article-list.html articles=site.alumni type='grid'-%}
+  </section>
+</div>

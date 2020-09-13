@@ -2,7 +2,7 @@
 layout: article
 title: Qiao Xiao and Yu Zhang. Distant Transfer Learning via Deep Random Walk. arXiv:2006.07622, 2020.
 key: 20200613
-tags: ["Transfer Learning", "year-2020", "Technical Reports"]
+tags: ["Transfer Learning", "Year-2020", "Technical Reports"]
 article_header:
   type: cover
   image:

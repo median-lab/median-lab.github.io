@@ -2,7 +2,7 @@
 layout: article
 title: Sicong Liang and Yu Zhang. A Simple General Approach to Balance Task Difficulty in Multi-Task Learning. arXiv:2002.04792, 2020.
 key: 20200212
-tags: ["Multi-Task Learning", "year-2020", "Technical Reports"]
+tags: ["Multi-Task Learning", "Year-2020", "Technical Reports"]
 article_header:
   type: cover
   image:

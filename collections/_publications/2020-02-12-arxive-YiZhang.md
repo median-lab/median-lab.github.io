@@ -3,7 +3,7 @@ layout: article
 title: Yi Zhang, Yu Zhang, and Wei Wang. Deep Multi-Task Learning via Generalized Tensor Trace Norm. arXiv:2002.04799, 2020.
 key: 20200212
 categories: publication
-tags: ["Multi-Task Learning", "year-2020", "Technical Reports"]
+tags: ["Multi-Task Learning", "Year-2020", "Technical Reports"]
 article_header:
   type: cover
   image:

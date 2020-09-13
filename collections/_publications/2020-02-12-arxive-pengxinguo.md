@@ -3,7 +3,7 @@ layout: article
 title: Pengxin Guo, Chang Deng, Linjie Xu, Xiaonan Huang, and Yu Zhang. Deep Multi-Task Augmented Feature Learning via Hierarchical Graph Neural Network. arXiv:2002.04813, 2020.
 key: 20200212
 categories: publication
-tags: ["Multi-Task Learning", "year-2020", "Technical Reports"]
+tags: ["Multi-Task Learning", "Year-2020", "Technical Reports"]
 article_header:
   type: cover
   image:
