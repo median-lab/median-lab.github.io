@@ -26,7 +26,7 @@ article_header:
 
 `E-mail address`{:.info}
 
-- yuezhixiong[at]foxmail[dot]com
+- yuezhixiong [at] foxmail [dot] com
 
 `Homepage`{:.info}
 

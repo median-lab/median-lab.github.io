@@ -23,11 +23,6 @@ article_header:
 `Currently`{:.info}
 - The University of Chicago, USA
 
-`Research Interests`{:.info}
-
-- Optimization
-- Multi-task Learning
-
 `E-mail address`{:.info}
 
 - dengc [at] mail [dot] sustech [dot] edu [dot] cn

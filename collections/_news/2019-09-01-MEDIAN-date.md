@@ -3,7 +3,9 @@ layout: article
 title: MEDIAN Group was established!
 key: 20170808
 tags: ["News"]
+show_tags: false
 show_date: false
+cover: /assets/images/people/default.png
 article_header:
   type: cover
   image:

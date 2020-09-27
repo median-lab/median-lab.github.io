@@ -4,7 +4,7 @@ title: 朱进京(Jinjing Zhu)
 tags: ["Research Assistants"]
 key: articles-brief
 permalink: /people/zhechen.html
-cover: /assets/images/people/default.png
+cover: /assets/images/people/ZhuJinjing.png
 show_date: false
 article_header:
   type: cover
@@ -18,7 +18,7 @@ article_header:
 ## Research Assistant, SUSTech, 2020 - Now
 
 <!--more-->
-![Image](/assets/images/people/default.png){:.circle.border.shadow}{:height="350px" width="350px"}
+![Image](/assets/images/people/ZhuJinjing.png){:.circle.border.shadow}{:height="350px" width="350px"}
 
 `Current Research Interests`{:.info}
 
